@@ -21,5 +21,5 @@ var whileLoop = function(num){
 
 
 forLoop(loop)
-console.log(whileLoop(10))
+whileLoop(10)
 
