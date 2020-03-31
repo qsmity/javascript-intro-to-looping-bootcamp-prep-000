@@ -20,10 +20,19 @@ var whileLoop = function(num){
 }
 
 var doWhileLoop = function(int){
+  let i = -1
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
   
+  do {
+    console.log("I run once regardless.")
+  } while (incrementVariable() <= int )
 }
 
 
 forLoop(loop)
 whileLoop(10)
+console.log(doWhileLoop(0))
 
