@@ -34,5 +34,5 @@ var doWhileLoop = function(int){
 
 forLoop(loop)
 whileLoop(10)
-console.log(doWhileLoop(0))
+console.log(doWhileLoop(2))
 
