@@ -20,7 +20,7 @@ var whileLoop = function(num){
 }
 
 var doWhileLoop = function(int){
-  let i = -1
+  let i = 0
   function incrementVariable() {
     i = i + 1;
     return i;
@@ -34,5 +34,5 @@ var doWhileLoop = function(int){
 
 forLoop(loop)
 whileLoop(10)
-console.log(doWhileLoop(2))
+console.log(doWhileLoop(0))
 
