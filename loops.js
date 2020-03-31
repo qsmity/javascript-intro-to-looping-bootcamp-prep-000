@@ -19,6 +19,10 @@ var whileLoop = function(num){
   return "done"
 }
 
+var doWhileLoop = function(int){
+  
+}
+
 
 forLoop(loop)
 whileLoop(10)
