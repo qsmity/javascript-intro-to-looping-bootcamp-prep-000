@@ -1,7 +1,7 @@
 var loop = []
 
 var forLoop = function(array){
-  if (array === 1){
+  if (parseInt(array) === 1){
     loop.push(`I am 1 stange loop.`);
   } else {
     for (let i = 0; i < 26; i++){
