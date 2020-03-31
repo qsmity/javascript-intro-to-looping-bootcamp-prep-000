@@ -11,4 +11,4 @@ var forLoop = function(array){
   console.log(loop)
 }
 
-forLoop(loop[0])
+forLoop(loop[1])
