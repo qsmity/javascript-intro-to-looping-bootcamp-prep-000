@@ -12,3 +12,4 @@ var forLoop = function(array){
 }
 
 forLoop(loop)
+
